@@ -1,4 +1,4 @@
-module github.com/tamalsaha/column-generator-demo
+module kmodules.xyz/column-generator
 
 go 1.17
 
