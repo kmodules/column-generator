@@ -277,7 +277,7 @@ func kindToType(k reflect.Kind) (typ string, format string) {
 	// reflect.Ptr,
 	// reflect.UnsafePointer, reflect.Uintptr:
 	default:
-		panic(fmt.Errorf("unknown kind %s", k))
+		panic(fmt.Errorf("unsupported kind %s", k))
 	}
 	return
 }
