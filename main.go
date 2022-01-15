@@ -232,7 +232,7 @@ func ListColumns(prefix string, v interface{}) []metav1alpha1.ResourceColumnDefi
 				Icon:         nil,
 				Color:        nil,
 			}
-			if IsStringMap(v) {
+			if IsStringMap(v) || typ == "object" {
 				col.PathTemplate = fmt.Sprintf(`{{ %s | toRawJson }}`, fullTag)
 			}
 
