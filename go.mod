@@ -10,10 +10,10 @@ require (
 	gomodules.xyz/encoding v0.0.3
 	k8s.io/apimachinery v0.21.1
 	k8s.io/klog/v2 v2.9.0
-	kmodules.xyz/client-go v0.0.0-20220108081101-27afc2ac4ebe
-	kmodules.xyz/resource-metadata v0.8.2-0.20220111091210-a285784faf6a
-	kubedb.dev/apimachinery v0.24.1-0.20220111122821-a90c72c79248
-	kubeops.dev/ui-server v0.0.2-0.20220111084620-1d4d97bb973f
+	kmodules.xyz/client-go v0.0.0-20220112225403-2a109f231e9b
+	kmodules.xyz/resource-metadata v0.8.2-0.20220115033531-e772f1e0ea4e
+	kubedb.dev/apimachinery v0.24.1-0.20220115042115-e438a2d82f88
+	kubeops.dev/ui-server v0.0.2-0.20220115033805-2b3362da99ee
 	sigs.k8s.io/yaml v1.3.0
 	stash.appscode.dev/apimachinery v0.17.1-0.20220110124058-68c8961440ea
 )
@@ -82,7 +82,7 @@ require (
 	kmodules.xyz/objectstore-api v0.0.0-20211116180107-8720be0c9bf7 // indirect
 	kmodules.xyz/offshoot-api v0.0.0-20211103060642-3e217667cf41 // indirect
 	kmodules.xyz/prober v0.0.0-20210618020259-5836fb959027 // indirect
-	kmodules.xyz/resource-metrics v0.0.6 // indirect
+	kmodules.xyz/resource-metrics v0.0.7-0.20220113235224-64b74ecbc4f8 // indirect
 	sigs.k8s.io/controller-runtime v0.9.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.0 // indirect
 )

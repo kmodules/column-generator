@@ -178,12 +178,16 @@ func ListColumns(prefix string, v interface{}) []metav1alpha1.ResourceColumnDefi
 			colTitle = flect.Titleize(strings.TrimSuffix(f.Name(), "Byte")) + " (bytes)"
 		} else if strings.HasSuffix(f.Name(), "Bytes") {
 			colTitle = flect.Titleize(strings.TrimSuffix(f.Name(), "Bytes")) + " (bytes)"
-		} else if strings.HasSuffix(f.Name(), "Seconds") {
-			colTitle = flect.Titleize(strings.TrimSuffix(f.Name(), "Seconds")) + " (sec)"
 		} else if strings.HasSuffix(f.Name(), "MilliSeconds") {
 			colTitle = flect.Titleize(strings.TrimSuffix(f.Name(), "MilliSeconds")) + " (msec)"
 		} else if strings.HasSuffix(f.Name(), "MicroSeconds") {
 			colTitle = flect.Titleize(strings.TrimSuffix(f.Name(), "MicroSeconds")) + " (µsec)"
+		} else if strings.HasSuffix(f.Name(), "Seconds") {
+			colTitle = flect.Titleize(strings.TrimSuffix(f.Name(), "Seconds")) + " (sec)"
+		} else if strings.HasSuffix(f.Name(), "PercentAsNumber") {
+			colTitle = flect.Titleize(strings.TrimSuffix(f.Name(), "PercentAsNumber")) + " (%)"
+		} else if strings.HasSuffix(f.Name(), "Percentage") {
+			colTitle = flect.Titleize(strings.TrimSuffix(f.Name(), "Percentage")) + " (%)"
 		}
 
 		t, v := f.Kind(), f.Value()
