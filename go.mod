@@ -11,9 +11,9 @@ require (
 	k8s.io/apimachinery v0.21.1
 	k8s.io/klog/v2 v2.9.0
 	kmodules.xyz/client-go v0.0.0-20220112225403-2a109f231e9b
-	kmodules.xyz/resource-metadata v0.8.2-0.20220115033531-e772f1e0ea4e
+	kmodules.xyz/resource-metadata v0.8.2-0.20220115053835-828c4538330c
 	kubedb.dev/apimachinery v0.24.1-0.20220115042115-e438a2d82f88
-	kubeops.dev/ui-server v0.0.2-0.20220115033805-2b3362da99ee
+	kubeops.dev/ui-server v0.0.2-0.20220115053743-a55025893670
 	sigs.k8s.io/yaml v1.3.0
 	stash.appscode.dev/apimachinery v0.17.1-0.20220110124058-68c8961440ea
 )

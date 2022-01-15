@@ -1226,8 +1226,9 @@ kmodules.xyz/openshift v0.0.0-20210618001443-f2507caa512f/go.mod h1:8E5ckbd1KMNm
 kmodules.xyz/prober v0.0.0-20210618020259-5836fb959027 h1:rtSPsruEkoBOLcbJkxMQjnPafpv8/vJnfWlTIj9yRBg=
 kmodules.xyz/prober v0.0.0-20210618020259-5836fb959027/go.mod h1:H4NcvS1RQxeXtQONALbU6r9OT3Xa7cMhfamX/k9t9wo=
 kmodules.xyz/resource-metadata v0.6.4/go.mod h1:KWf68Ado/hgYpb/msYNvhYSLWvS/bJcVAAHO1/q9nNg=
-kmodules.xyz/resource-metadata v0.8.2-0.20220115033531-e772f1e0ea4e h1:BBDh6d4PvyOoXpt6LRfLRnCf9oTVFoKYFVag41DPjQk=
 kmodules.xyz/resource-metadata v0.8.2-0.20220115033531-e772f1e0ea4e/go.mod h1:1SGviU14pH9nhwp+hBGI9mVqvv0MRt8r/j7B8eMFIj0=
+kmodules.xyz/resource-metadata v0.8.2-0.20220115053835-828c4538330c h1:AZpqCMJgA8AOejzgc9ym0zPxkvu2RT5QagE2ZG0wKGM=
+kmodules.xyz/resource-metadata v0.8.2-0.20220115053835-828c4538330c/go.mod h1:1SGviU14pH9nhwp+hBGI9mVqvv0MRt8r/j7B8eMFIj0=
 kmodules.xyz/resource-metrics v0.0.3/go.mod h1:6Dv63HDgp83DhA+lZNB7GIQR6PLjNrYW6ghQKioQzII=
 kmodules.xyz/resource-metrics v0.0.5/go.mod h1:6Dv63HDgp83DhA+lZNB7GIQR6PLjNrYW6ghQKioQzII=
 kmodules.xyz/resource-metrics v0.0.6/go.mod h1:M7rWuo2qh3BpHhogiEVPnvGY9Xx4Pfygqn1Rex8YbgM=
@@ -1238,8 +1239,8 @@ kmodules.xyz/sets v0.0.0-20220102205946-ac2b95a10ab2/go.mod h1:shZDmq8S1GFtTq/Cx
 kmodules.xyz/webhook-runtime v0.0.0-20210928141616-7f73c2ab318a/go.mod h1:MFZFmJk9IXNHwq8JlF/mukwBDbopFQj4swaB2MWHc/U=
 kubedb.dev/apimachinery v0.24.1-0.20220115042115-e438a2d82f88 h1:ogqBVzSJCiFpicNm8XAl0wZRIupgTmIq2OJIe3bo4/s=
 kubedb.dev/apimachinery v0.24.1-0.20220115042115-e438a2d82f88/go.mod h1:euSlEJ4PbfR6m6QH1oYGt2bEAOErr/ZiJWz+h+siqII=
-kubeops.dev/ui-server v0.0.2-0.20220115033805-2b3362da99ee h1:+e492XYGdYpBiSMlwDt5BD2O1IWqxmopimaxKAjUQW4=
-kubeops.dev/ui-server v0.0.2-0.20220115033805-2b3362da99ee/go.mod h1:xT2QfoDCgjFqyW50/VnZy8Rw/F86zgoCqYg9OMhwqZ0=
+kubeops.dev/ui-server v0.0.2-0.20220115053743-a55025893670 h1:1OP0M4cSMVm6SD5J70gQ+dRVd3YHP0x3qqMQvUIZeh0=
+kubeops.dev/ui-server v0.0.2-0.20220115053743-a55025893670/go.mod h1:xT2QfoDCgjFqyW50/VnZy8Rw/F86zgoCqYg9OMhwqZ0=
 modernc.org/cc v1.0.0/go.mod h1:1Sk4//wdnYJiUIxnW8ddKpaOJCF37yAdqYnkxUpaYxw=
 modernc.org/golex v1.0.0/go.mod h1:b/QX9oBD/LhixY6NDh+IdGv17hgB+51fET1i2kPSmvk=
 modernc.org/mathutil v1.0.0/go.mod h1:wU0vUrJsVWBZ4P6e7xtFJEhFSNsfRLJ8H458uRjg03k=
