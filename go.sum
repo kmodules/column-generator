@@ -615,6 +615,7 @@ github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZN
 github.com/posener/complete v1.1.1/go.mod h1:em0nMJCgc9GFtwrmVmEMR/ZL6WyhyjMBndrE9hABlRI=
 github.com/pquerna/cachecontrol v0.0.0-20171018203845-0dec1b30a021/go.mod h1:prYjPmNq4d1NPVmpShWobRqXY3q7Vp+80DqgxxUrUIA=
 github.com/pquerna/ffjson v0.0.0-20190930134022-aa0246cd15f7/go.mod h1:YARuvh7BUWHNhzDq2OM5tzR2RiCcN2D7sapiKyCel/M=
+github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.47.0 h1:xjbMyky/ywLg+SoqYXneHRqcu+qILajXmqDjNd5sseY=
 github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.47.0/go.mod h1:3WYi4xqXxGGXWDdQIITnLNmuDzO5n6wYva9spVhR4fg=
 github.com/prometheus-operator/prometheus-operator/pkg/client v0.47.0/go.mod h1:k4BrWlVQQsvBiTcDnKEMgyh/euRxyxgrHdur/ZX/sdA=
 github.com/prometheus/client_golang v1.10.0/go.mod h1:WJM3cc3yu7XKBKa/I8WeZm+V3eltZnBwfENSU7mdogU=
@@ -1052,6 +1053,7 @@ gomodules.xyz/jsonpatch/v2 v2.0.1/go.mod h1:IhYNNY4jnS53ZnfE4PAmpKtDpTCj1JFXc+3m
 gomodules.xyz/jsonpatch/v2 v2.1.0/go.mod h1:IhYNNY4jnS53ZnfE4PAmpKtDpTCj1JFXc+3mwe7XcUU=
 gomodules.xyz/jsonpatch/v2 v2.2.0 h1:4pT439QV83L+G9FkcCriY6EkpcK6r6bK+A5FBUMI7qY=
 gomodules.xyz/jsonpatch/v2 v2.2.0/go.mod h1:WXp+iVDkoLQqPudfQ9GBlwB2eZ5DKOnjQZCYdOS8GPY=
+gomodules.xyz/jsonpath v0.0.1 h1:iSVuNrGuLPgxQtHCX/8LK2kizjJSqCZR7PM1iKSV2oU=
 gomodules.xyz/jsonpath v0.0.1/go.mod h1:du28vmLHrgEV48JqK/7rn92YHsVDoQuqrowb2w6YZmE=
 gomodules.xyz/logs v0.0.4/go.mod h1:GRwztZB2qW4vSV/9KZR2DKFhAwyn1w/S7s4bfnV1jqo=
 gomodules.xyz/logs v0.0.6/go.mod h1:Q+fFtZFLEB5q86KmDehXCGuMP72Rv+Rwz0KuVxK+Gi4=
@@ -1075,6 +1077,7 @@ gomodules.xyz/wait v0.2.0/go.mod h1:g/epKzZQuCqgvhzhaoG4cSBNGHqnOrhFR4Q7szDJ1JM=
 gomodules.xyz/x v0.0.5/go.mod h1:EGy7cB7ifSuOcbNFc0U1zUPTf5yY8RtXVJlAlhGS9OE=
 gomodules.xyz/x v0.0.7/go.mod h1:CMXe28rpApV30pPw9cxdyEmvoC+aa5LiAqzks9dlxag=
 gomodules.xyz/x v0.0.8/go.mod h1:YnL5CAnLrEtAV/NQGn5sKJe6u08/vDlRyJddXIuD9mc=
+gomodules.xyz/x v0.0.10 h1:b78HYvlXlqOVb8OZEy2uZeN/bp78nH42qIFnLQVR6O0=
 gomodules.xyz/x v0.0.10/go.mod h1:AgHPywNbRKtogAdk08vCqsfwjtXtXX1/FUPyG7OWdOs=
 gonum.org/v1/gonum v0.0.0-20180816165407-929014505bf4/go.mod h1:Y+Yx5eoAFn32cQvJDxZx5Dpnq+c3wtXuadVZAcxbbBo=
 gonum.org/v1/gonum v0.0.0-20190331200053-3d26580ed485/go.mod h1:2ltnJ7xHfj0zHS40VVPYEAAMTa3ZGguvHGBSJeRWqE0=
@@ -1192,6 +1195,7 @@ k8s.io/sample-apiserver v0.21.1/go.mod h1:haiFU1SSB0+EaaqTpg+CxqOLVwsmjBOJ/CeOk6
 k8s.io/system-validators v1.4.0/go.mod h1:bPldcLgkIUK22ALflnsXk8pvkTEndYdNuaHH6gRrl0Q=
 k8s.io/utils v0.0.0-20201110183641-67b214c5f920 h1:CbnUZsM497iRC5QMVkHwyl8s2tB3g7yaSHkYPkpgelw=
 k8s.io/utils v0.0.0-20201110183641-67b214c5f920/go.mod h1:jPW/WVKK9YHAvNhRxK0md/EJ228hCsBRufyofKtW8HA=
+kmodules.xyz/apiversion v0.2.0 h1:vAQYqZFm4xu4pbB1cAdHbFEPES6EQkcR4wc06xdTOWk=
 kmodules.xyz/apiversion v0.2.0/go.mod h1:oPX8g8LvlPdPX3Yc5YvCzJHQnw3YF/X4/jdW0b1am80=
 kmodules.xyz/authorizer v0.0.0-20211121124031-167d0ef7c671/go.mod h1:Niv46qWTo/eaE7ovvL4K2JWgq/5ke35dycCmCc8BgVA=
 kmodules.xyz/client-go v0.0.0-20210617233340-13d22e91512b/go.mod h1:A6GAK6xP5zBuWK6A/vUkkjKzcuywkms7fIxRf5wblO4=
@@ -1227,8 +1231,8 @@ kmodules.xyz/prober v0.0.0-20210618020259-5836fb959027 h1:rtSPsruEkoBOLcbJkxMQjn
 kmodules.xyz/prober v0.0.0-20210618020259-5836fb959027/go.mod h1:H4NcvS1RQxeXtQONALbU6r9OT3Xa7cMhfamX/k9t9wo=
 kmodules.xyz/resource-metadata v0.6.4/go.mod h1:KWf68Ado/hgYpb/msYNvhYSLWvS/bJcVAAHO1/q9nNg=
 kmodules.xyz/resource-metadata v0.8.2-0.20220115033531-e772f1e0ea4e/go.mod h1:1SGviU14pH9nhwp+hBGI9mVqvv0MRt8r/j7B8eMFIj0=
-kmodules.xyz/resource-metadata v0.8.2-0.20220115053835-828c4538330c h1:AZpqCMJgA8AOejzgc9ym0zPxkvu2RT5QagE2ZG0wKGM=
-kmodules.xyz/resource-metadata v0.8.2-0.20220115053835-828c4538330c/go.mod h1:1SGviU14pH9nhwp+hBGI9mVqvv0MRt8r/j7B8eMFIj0=
+kmodules.xyz/resource-metadata v0.8.2-0.20220115070525-5bc6abdd913a h1:1NbohNQH+pntPOG0repQDG/taZU4qDpcCYWzTH7Uxfw=
+kmodules.xyz/resource-metadata v0.8.2-0.20220115070525-5bc6abdd913a/go.mod h1:1SGviU14pH9nhwp+hBGI9mVqvv0MRt8r/j7B8eMFIj0=
 kmodules.xyz/resource-metrics v0.0.3/go.mod h1:6Dv63HDgp83DhA+lZNB7GIQR6PLjNrYW6ghQKioQzII=
 kmodules.xyz/resource-metrics v0.0.5/go.mod h1:6Dv63HDgp83DhA+lZNB7GIQR6PLjNrYW6ghQKioQzII=
 kmodules.xyz/resource-metrics v0.0.6/go.mod h1:M7rWuo2qh3BpHhogiEVPnvGY9Xx4Pfygqn1Rex8YbgM=

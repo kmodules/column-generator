@@ -11,7 +11,7 @@ require (
 	k8s.io/apimachinery v0.21.1
 	k8s.io/klog/v2 v2.9.0
 	kmodules.xyz/client-go v0.0.0-20220112225403-2a109f231e9b
-	kmodules.xyz/resource-metadata v0.8.2-0.20220115053835-828c4538330c
+	kmodules.xyz/resource-metadata v0.8.2-0.20220115070525-5bc6abdd913a
 	kubedb.dev/apimachinery v0.24.1-0.20220115042115-e438a2d82f88
 	kubeops.dev/ui-server v0.0.2-0.20220115053743-a55025893670
 	sigs.k8s.io/yaml v1.3.0
@@ -44,14 +44,13 @@ require (
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
-	github.com/mattn/go-colorable v0.1.9 // indirect
-	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/mitchellh/copystructure v1.0.0 // indirect
 	github.com/mitchellh/mapstructure v1.4.1 // indirect
 	github.com/mitchellh/reflectwalk v1.0.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
+	github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.47.0 // indirect
 	github.com/sergi/go-diff v1.2.0 // indirect
 	github.com/shopspring/decimal v1.2.0 // indirect
 	github.com/spf13/cast v1.3.1 // indirect
@@ -65,8 +64,10 @@ require (
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac // indirect
 	gomodules.xyz/jsonpatch/v2 v2.2.0 // indirect
+	gomodules.xyz/jsonpath v0.0.1 // indirect
 	gomodules.xyz/mergo v0.3.13-0.20210702100041-9d62ff8ece4d // indirect
 	gomodules.xyz/pointer v0.1.0 // indirect
+	gomodules.xyz/x v0.0.10 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
@@ -77,6 +78,7 @@ require (
 	k8s.io/kube-openapi v0.0.0-20211115234752-e816edb12b65 // indirect
 	k8s.io/kubernetes v1.21.1 // indirect
 	k8s.io/utils v0.0.0-20210930125809-cb0fa318a74b // indirect
+	kmodules.xyz/apiversion v0.2.0 // indirect
 	kmodules.xyz/custom-resources v0.0.0-20220104123914-3c036dd7c1cd // indirect
 	kmodules.xyz/monitoring-agent-api v0.0.0-20210928135619-38ca075a2dbd // indirect
 	kmodules.xyz/objectstore-api v0.0.0-20211116180107-8720be0c9bf7 // indirect

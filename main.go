@@ -21,6 +21,7 @@ import (
 	"k8s.io/klog/v2"
 	kmapi "kmodules.xyz/client-go/api/v1"
 	metav1alpha1 "kmodules.xyz/resource-metadata/apis/meta/v1alpha1"
+	"kmodules.xyz/resource-metadata/pkg/tableconvertor"
 	kuebdbuiv1alpha1 "kubedb.dev/apimachinery/apis/ui/v1alpha1"
 	kubev1alpha1 "kubeops.dev/ui-server/apis/ui/v1alpha1"
 	"sigs.k8s.io/yaml"
@@ -103,7 +104,7 @@ func Generate(dir string, gvk schema.GroupVersionKind, s interface{}) {
 		table.Spec = metav1alpha1.ResourceTableDefinitionSpec{
 			Resource:    &rid,
 			DefaultView: usingSpec,
-			Columns:     ListColumns(prefix, v),
+			Columns:     append(tableconvertor.DefaultDetailsColumns(), ListColumns(prefix, v)...),
 		}
 	} else {
 		table.Name = strings.ToLower(GetName(rid.GroupVersionResource()) + "-" + subfield)
