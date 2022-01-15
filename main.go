@@ -271,7 +271,7 @@ func IsTime(v interface{}) bool {
 func kindToType(k reflect.Kind) (typ string, format string) {
 	switch k {
 	case reflect.Bool:
-		typ = k.String()
+		typ = "boolean"
 	case reflect.Int, reflect.Int8, reflect.Int16, reflect.Int32, reflect.Int64, reflect.Uint, reflect.Uint8, reflect.Uint16, reflect.Uint32, reflect.Uint64:
 		typ = "integer"
 	case reflect.Float32:
