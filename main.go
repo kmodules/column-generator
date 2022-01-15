@@ -173,10 +173,23 @@ func ListColumns(prefix string, v interface{}) []metav1alpha1.ResourceColumnDefi
 			fullTag += "." + tag
 		}
 
+		colTitle := flect.Titleize(f.Name())
+		if strings.HasSuffix(f.Name(), "Byte") {
+			colTitle = flect.Titleize(strings.TrimSuffix(f.Name(), "Byte")) + " (bytes)"
+		} else if strings.HasSuffix(f.Name(), "Bytes") {
+			colTitle = flect.Titleize(strings.TrimSuffix(f.Name(), "Bytes")) + " (bytes)"
+		} else if strings.HasSuffix(f.Name(), "Seconds") {
+			colTitle = flect.Titleize(strings.TrimSuffix(f.Name(), "Seconds")) + " (sec)"
+		} else if strings.HasSuffix(f.Name(), "MilliSeconds") {
+			colTitle = flect.Titleize(strings.TrimSuffix(f.Name(), "MilliSeconds")) + " (msec)"
+		} else if strings.HasSuffix(f.Name(), "MicroSeconds") {
+			colTitle = flect.Titleize(strings.TrimSuffix(f.Name(), "MicroSeconds")) + " (µsec)"
+		}
+
 		t, v := f.Kind(), f.Value()
 		if IsTime(v) {
 			columns = append(columns, metav1alpha1.ResourceColumnDefinition{
-				Name:         flect.Titleize(f.Name()),
+				Name:         colTitle,
 				Type:         "date",
 				Format:       "",
 				Description:  "",
@@ -207,7 +220,7 @@ func ListColumns(prefix string, v interface{}) []metav1alpha1.ResourceColumnDefi
 		} else {
 			typ, format := kindToType(t)
 			col := metav1alpha1.ResourceColumnDefinition{
-				Name:         flect.Titleize(f.Name()),
+				Name:         colTitle,
 				Type:         typ,
 				Format:       format,
 				Description:  "",
