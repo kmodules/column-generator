@@ -3,7 +3,6 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"io/ioutil"
 	"os"
 	"path/filepath"
 	"reflect"
@@ -131,7 +130,7 @@ func Generate(dir string, gvk schema.GroupVersionKind, s interface{}) {
 
 	path := filepath.Join(dir, rid.Group, rid.Version)
 	_ = os.MkdirAll(path, 0755)
-	_ = ioutil.WriteFile(filepath.Join(path, filename), buf.Bytes(), 0644)
+	_ = os.WriteFile(filepath.Join(path, filename), buf.Bytes(), 0644)
 }
 
 func IsOfficialType(group string) bool {
